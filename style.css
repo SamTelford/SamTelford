@@ -1,17 +1,65 @@
+
+
 * {
+  font-family: 'Century';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Century';
+}
+
+a:link {
+  color: #5995DA;
+  text-decoration: none;
+}
+a:visited {
+  color: #407FC7;
+}
+a:hover,
+a:visited:hover {
+  color: #76AEED;
+  border-bottom: 1px solid #76AEED;
+}
+a:active,
+a:visited:active: {
+  color: #5995DA;
+}
+
+
+nav {
+  margin: 5px;
+  border-bottom: 1px solid;
+}
+
+.nav_name {
+  display: inline;
+}
+
+.nav_links {
+  font-size: 24px;
+  display: inline;
+  background-color: #aaa;
+}
+
+.nav_name_link {
+  font-size: 32px;
+}
+
 header {
   background-color: #999;
   padding: 5px;
-  border-bottom: 1px solid;
+  text-align: center;
 }
 
 h1 {
   display: inline;
+}
+
+.content {
+
 }
 
 h2 {
