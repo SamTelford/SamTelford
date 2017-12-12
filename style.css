@@ -31,7 +31,7 @@ a:visited:active: {
 
 nav {
   overflow: hidden;
-  margin: 5px;
+  padding: 5px;
   border-bottom: 1px solid;
 }
 
@@ -43,6 +43,10 @@ nav {
   float: right;
   font-size: 24px;
   margin-top: 8px;
+}
+
+.nav_link {
+  padding: 10px;
 }
 
 .nav_name_link {
