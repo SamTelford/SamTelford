@@ -21,7 +21,6 @@ a:visited {
 a:hover,
 a:visited:hover {
   color: #76AEED;
-  border-bottom: 1px solid #76AEED;
 }
 a:active,
 a:visited:active: {
@@ -39,18 +38,20 @@ nav {
   display: inline;
 }
 
+.nav_name_link {
+  font-size: 32px;
+  padding: 10px
+}
+
 .nav_links {
   float: right;
   font-size: 24px;
-  margin-top: 8px;
+  padding-top: 8px;
+  padding-right:10px;
 }
 
 .nav_link {
   padding: 10px;
-}
-
-.nav_name_link {
-  font-size: 32px;
 }
 
 header {
