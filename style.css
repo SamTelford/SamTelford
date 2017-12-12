@@ -55,6 +55,11 @@ nav {
   padding: 10px;
 }
 
+.nav_link_current {
+  padding: 10px;
+  background-color: #dde9f7;
+}
+
 header {
   background-color: #999;
   padding: 5px;
