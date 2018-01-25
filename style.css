@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Century';
+  background-color: #F9FAFB;
 }
 
 a:link {
@@ -33,6 +34,8 @@ nav {
   overflow: hidden;
   padding: 5px;
   border-bottom: 2px solid #EAEDF0;
+  background-color: #fff;
+  
 }
 
 .nav_name {
